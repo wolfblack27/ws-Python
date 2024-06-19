@@ -3,6 +3,8 @@ texto_analise = """Adoniran era filho de Francesco Fernando Rubinato e Emma Ricc
   e os maternos, Francesco Ricchini e Antonia Freddo. Seus pais casaram-se em Cavarzere em 23 de maio de 1895, 
   desembarcaram em Santos em 15 de setembro de 1895, passaram pela Hospedaria dos Imigrantes e foram trabalhar nas 
   lavouras do município de Tietê. Sua mãe morreu em 1939 e seu pai em 1943""".upper()
+
+
 list_text = texto_analise.split()
 list_text = list(filter(None, list_text))
 print(list_text)
